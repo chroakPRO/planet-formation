@@ -58,7 +58,7 @@ N_PLANETESIMALS = 100
 # Timestep: for A_MIN=0.8 AU, P_inner ~ 0.72 yr -> dt ~ P/30 ≈ 0.024 yr; we go a bit smaller for safety.
 DT_YEARS = 0.02                # ~7.3 days; smaller = more accurate, slower
 
-# Initial sim duration guess (auto-sizer will scale this)  
+# Initial sim duration guess (auto-sizer will scale this)
 SIM_YEARS_GUESS = 1e6          # 1 Myr per system (meaningful planet formation)
 FRAME_INTERVAL_YEARS = 5e3     # 5,000 years per frame (200 frames for full sim)
 OUTPUT_INTERVAL_YEARS = 0.5e6  # progress print interval
